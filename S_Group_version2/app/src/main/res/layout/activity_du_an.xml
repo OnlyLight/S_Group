@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context="com.quangduyv2017.s_group_version2.DuAnActivity">
+
+    <EditText
+        android:id="@+id/edtDateDuAn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="Chọn ngày"
+        android:padding="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Không đúng định dạng sẽ lấy ngày hiện tại"
+        android:textStyle="italic"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/btnDangKyDuAn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Đăng Ký lịch"/>
+
+        <Button
+            android:id="@+id/btnXemLichDuAn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Xem Lịch"/>
+
+    </LinearLayout>
+
+</LinearLayout>

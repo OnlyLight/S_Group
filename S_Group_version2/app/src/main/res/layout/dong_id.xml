@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtIdUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Nhập ID"
+        android:padding="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnIdUpdate"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Hiện thông tin" />
+
+        <Button
+            android:id="@+id/btnHuyIdUpdate"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Hủy" />
+    </LinearLayout>
+
+</LinearLayout>
